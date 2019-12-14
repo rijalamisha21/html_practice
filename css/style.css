@@ -1,0 +1,96 @@
+*{
+margin: 0;         /*yesle k garx sajha sodhxu*/
+padding: 0;
+font-family: Century Gothic;
+
+}
+header{
+     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/computer\ \(1\).jpg);
+    height:100vh;
+    background-size:cover;
+    background-position:center;
+
+}
+
+/* Yesle k garx sodhxu sajha */
+ul{
+    float:right;
+    list-style-type: none;
+    margin-top: 40px;
+}
+
+ul li{
+   display: inline-block;
+
+}
+
+ul li a{
+    text-decoration: navy;
+    color:#fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+
+}
+
+ul li a:hover{
+     background-color: #fff;
+     color: #000;
+
+     }
+ul li.active a{
+    background-color: #fff;
+    color: #000; 
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+     position: absolute;
+     top: 40%;
+     left:20%;
+     transform: translate(-50%,-50%);
+
+}
+.title h1{
+     color:#fff;
+     font-size: 50px;
+}
+
+/* What are position absolute and relative yo pani */
+.button{
+    position: absolute;
+    top: 60%;
+left: 50%;
+    
+    transform: translate(-50%,-50%);
+}
+
+
+.btn{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration:none ;
+transition: 0.6s ease;
+}
+/* Hover le k garx sajha sodhxu */
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+
+
+}
+
+       
+
+ 
+
+
+
+
+
+
