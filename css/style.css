@@ -1,96 +1,92 @@
-*{
-margin: 0;         /*yesle k garx sajha sodhxu*/
-padding: 0;
-font-family: Century Gothic;
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Exo&display=swap');
 
-}
-header{
-     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/computer\ \(1\).jpg);
-    height:100vh;
-    background-size:cover;
-    background-position:center;
-
+* {
+  margin: 0;
+  padding: 0;
 }
 
-/* Yesle k garx sodhxu sajha */
-ul{
-    float:right;
-    list-style-type: none;
-    margin-top: 40px;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Abril Fatface', cursive;
 }
 
-ul li{
-   display: inline-block;
-
+body {
+  font-family: 'Exo', sans-serif;
 }
 
-ul li a{
-    text-decoration: navy;
-    color:#fff;
-    padding: 5px 20px;
-    border: 1px solid transparent;
-    transition: 0.6s ease;
-
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/computer1.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
 }
 
-ul li a:hover{
-     background-color: #fff;
-     color: #000;
-
-     }
-ul li.active a{
-    background-color: #fff;
-    color: #000; 
+ul {
+  /* left <- right float -> */
+  float: right;
+  list-style-type: none;
+  margin-top: 40px;
 }
 
-.main{
-    max-width: 1200px;
-    margin: auto;
+ul li {
+  display: inline-block;
 }
 
-.title{
-     position: absolute;
-     top: 40%;
-     left:20%;
-     transform: translate(-50%,-50%);
-
-}
-.title h1{
-     color:#fff;
-     font-size: 50px;
+ul li a {
+  text-decoration: navy;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
 }
 
-/* What are position absolute and relative yo pani */
-.button{
-    position: absolute;
-    top: 60%;
-left: 50%;
-    
-    transform: translate(-50%,-50%);
+ul li a:hover {
+  background-color: #fff;
+  color: #000;
 }
 
-
-.btn{
-    border: 1px solid #fff;
-    padding: 10px 30px;
-    color: #fff;
-    text-decoration:none ;
-transition: 0.6s ease;
-}
-/* Hover le k garx sajha sodhxu */
-.btn:hover{
-    background-color: #fff;
-    color: #000;
-
-
+ul li.active a {
+  background-color: #fff;
+  color: #000;
 }
 
-       
+.main {
+  max-width: 1200px;
+  margin: auto;
+}
 
- 
+.title {
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
+.title h1 {
+  color: #fff;
+  font-size: 50px;
+}
 
+.button {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
+.btn {
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.6s ease;
+}
 
-
-
-
+.btn:hover {
+  background-color: #fff;
+  color: #000;
+}
